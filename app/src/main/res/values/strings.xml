@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AOSP Boot Signer</string>
+    <string name="title_select_file">选择镜像文件 (boot.img / init_boot.img)</string>
+    <string name="btn_select_file">浏览并选择 Boot 镜像</string>
+    <string name="hint_partition_name">分区名称 (例如 boot, vendor_boot, init_boot)</string>
+    <string name="title_signing_mode">签名模式</string>
+    <string name="mode_chained">Chained Partition (推荐)</string>
+    <string name="mode_standard">Standard AVB Hash Footer</string>
+    <string name="title_key_selection">测试密钥</string>
+    <string name="key_rsa2048">AOSP TestKey RSA-2048 (SHA256)</string>
+    <string name="key_rsa4096">AOSP TestKey RSA-4096 (SHA256)</string>
+    <string name="btn_sign_boot">开始重新签名</string>
+    <string name="btn_save_signed">保存签名后的镜像</string>
+    <string name="title_log">运行日志</string>
+</resources>
